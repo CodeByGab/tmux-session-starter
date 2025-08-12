@@ -8,7 +8,7 @@ tmux new-session -d -s "$SESSION_NAME" -c "$WORKDIR"
 # Painel 0: nvim
 tmux send-keys -t "$SESSION_NAME":0 'nvim' C-m
 
-tmux send-keys -t 0.0 C-n
+# tmux send-keys -t 0.0 C-n
 
 # Painel 1: npm run dev 
 tmux split-window -v -t "$SESSION_NAME":0 -c "$WORKDIR"
