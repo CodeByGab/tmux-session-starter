@@ -19,4 +19,3 @@ tmux resize-pane -R -t "$SESSION_NAME":0.0 40
 tmux select-pane -t "$SESSION_NAME":0.0
 
 tmux attach-session -t "$SESSION_NAME"
-
